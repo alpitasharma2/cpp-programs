@@ -1,3 +1,4 @@
+/*-----------SUM OF 2 NUMBERS USING FUNCTIONSSS-------*/
 #include <iostream>
 using namespace std;
 
@@ -18,3 +19,31 @@ int main()
     return 0;
 
 }
+
+/*------------------FACTORIAL OF A NUMBER USING FUNCTIONS ------------*/
+#include <iostream>
+using namespace std;
+int factorial(int n)
+{
+    int fact=1,i;
+    for(i=1;i<=n;i++)
+    {
+        fact=fact*i;
+    }
+    return (fact);
+
+
+
+}
+
+int main()
+{
+    int n;
+    cout<<"enter the number: "<<endl;
+    cin>>n;
+   int answer = factorial(n);
+    cout << answer;
+
+
+}
+

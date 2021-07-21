@@ -48,5 +48,32 @@ int main()
 }
 
 /*------------------------FIBONACCI SERIES USING FUNCTIONS--------------------------*/
+#include <iostream>
+using namespace std;
+
+void fibonacci_series(int n)
+{
+    int a=0,b=1,c,i;
+    cout<<a<<endl<<b<<endl;
+    for(i=0;i<n-2;i++)
+   {
+       c = a+b;
+       cout<<c<<endl;
+       a=b;
+       b=c;
+   }
+
+}
+
+int main()
+{
+    int n,result;
+    cout<<"enter the number: "<<endl;
+    cin>>n;
+    fibonacci_series(n);
+
+   return 0;
+}
+
 
 

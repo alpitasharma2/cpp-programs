@@ -47,3 +47,6 @@ int main()
 
 }
 
+/*------------------------FIBONACCI SERIES USING FUNCTIONS--------------------------*/
+
+
